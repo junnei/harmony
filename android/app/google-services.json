@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "337751816511",
+    "firebase_url": "https://connect-e0394.firebaseio.com",
+    "project_id": "connect-e0394",
+    "storage_bucket": "connect-e0394.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337751816511:android:c215271c0d043ad133fb8a",
+        "android_client_info": {
+          "package_name": "com.jun.connect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337751816511-fpfk17j0o2mi883bc1b8eu1ost84rfv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxSLZGdrwNl2f3fmeKg_euTc7EWbIGOBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337751816511-fpfk17j0o2mi883bc1b8eu1ost84rfv8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "337751816511-9m98rijg383rrmmk66e6koareu342p1i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jun.connect"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

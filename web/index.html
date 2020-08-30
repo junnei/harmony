@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+
+    <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+    <meta name="description" content="Be connected.">
+
+    <!-- iOS meta tags & icons -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="connect">
+    <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="favicon.png"/>
+    <link rel="manifest" href="manifest.json">
+
+    <title>Firebase Hosting</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.17.1/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.17.1/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.17.1/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.17.1/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.17.1/firebase-storage.js"></script>
+    <script defer src="/__/firebase/7.17.1/firebase-analytics.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+  </head>
+  <body>
+
+    <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+  </body>
+
+</html>
