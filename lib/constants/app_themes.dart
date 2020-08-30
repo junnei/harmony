@@ -190,7 +190,6 @@ class AppThemes {
     colorScheme: ColorScheme.dark(
       primary: _darkPrimaryColor,
       primaryVariant: _darkBackgroundColor,
-
       // secondary: _darkSecondaryColor,
     ),
     snackBarTheme: SnackBarThemeData(
