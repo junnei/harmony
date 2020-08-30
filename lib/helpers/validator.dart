@@ -16,7 +16,7 @@ class Validator {
   }
 
   String password(String value) {
-    Pattern pattern = r'^.{6,}$';
+    Pattern pattern = r'^.{4,}$';
     RegExp regex = new RegExp(pattern);
     if (!regex.hasMatch(value))
       return labels.validator.password;

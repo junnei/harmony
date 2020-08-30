@@ -26,7 +26,7 @@ class AppLocalizations {
         signUpError: "Sign up failed.",
         signInLabelButton: "Have an Account? Sign In.",
         resetPasswordNotice:
-            "Check your email and follow the instructions to reset your password.",
+        "Check your email and follow the instructions to reset your password.",
         signInonResetPasswordLabelButton: "Sign In",
         updateUser: "Update Profile",
         updateUserSuccessNotice: "User updated successfully",
@@ -67,7 +67,7 @@ class AppLocalizations {
         number: "Please enter a number.",
         notEmpty: "This is a required field.",
         amount:
-            "Please enter a number i.e. 250 - no dollar symbol and no cents",
+        "Please enter a number i.e. 250 - no dollar symbol and no cents",
       ),
     ),
     Locale.fromSubtags(languageCode: "fr"): AppLocalizations_Labels(
@@ -84,7 +84,7 @@ class AppLocalizations {
         signUpError: "Inscrivez-vous échoué.",
         signInLabelButton: "Avoir un compte? Se connecter.",
         resetPasswordNotice:
-            "Vérifiez votre e-mail et suivez les instructions pour réinitialiser votre mot de passe.",
+        "Vérifiez votre e-mail et suivez les instructions pour réinitialiser votre mot de passe.",
         signInonResetPasswordLabelButton: "Se connecter",
         updateUser: "Mettre à jour le profil",
         updateUserSuccessNotice: "L'utilisateur mis à jour avec succès",
@@ -125,7 +125,7 @@ class AppLocalizations {
         number: "S'il vous plaît entrer un numéro.",
         notEmpty: "Ceci est un champ obligatoire.",
         amount:
-            "S'il vous plaît entrer un numéro à savoir 250 - aucun symbole du dollar et pas cents",
+        "S'il vous plaît entrer un numéro à savoir 250 - aucun symbole du dollar et pas cents",
       ),
     ),
     Locale.fromSubtags(languageCode: "es"): AppLocalizations_Labels(
@@ -137,13 +137,13 @@ class AppLocalizations {
         passwordFormField: "Contraseña",
         nameFormField: "Nombre",
         signInError:
-            "La conexión falló: correo electrónico o contraseña incorrecta.",
+        "La conexión falló: correo electrónico o contraseña incorrecta.",
         resetPasswordLabelButton: "¿Se te olvidó tu contraseña?",
         signUpLabelButton: "Crea una cuenta",
         signUpError: "Registro fallido.",
         signInLabelButton: "¿Tener una cuenta? Registrarse.",
         resetPasswordNotice:
-            "Consultar su correo electrónico y siga las instrucciones para restablecer su contraseña.",
+        "Consultar su correo electrónico y siga las instrucciones para restablecer su contraseña.",
         signInonResetPasswordLabelButton: "Registrarse",
         updateUser: "Actualización del perfil",
         updateUserSuccessNotice: "Usuario actualizado correctamente",
@@ -179,13 +179,13 @@ class AppLocalizations {
       ),
       validator: AppLocalizations_Labels_Validator(
         email:
-            "Por favor, introduce una dirección de correo electrónico válida.",
+        "Por favor, introduce una dirección de correo electrónico válida.",
         password: "La contraseña debe tener al menos 6 caracteres.",
         name: "Por favor, introduzca un nombre.",
         number: "Por favor, introduzca un número.",
         notEmpty: "Este es un campo obligatorio.",
         amount:
-            "Por favor, introduzca un número, es decir 250 - ningún símbolo del dólar y sin centavos",
+        "Por favor, introduzca un número, es decir 250 - ningún símbolo del dólar y sin centavos",
       ),
     ),
     Locale.fromSubtags(languageCode: "de"): AppLocalizations_Labels(
@@ -202,7 +202,7 @@ class AppLocalizations {
         signUpError: "Anmeldung gescheitert.",
         signInLabelButton: "Ein Konto haben? Anmelden.",
         resetPasswordNotice:
-            "Überprüfen Sie Ihre E-Mail und folgen Sie den Anweisungen, um Ihr Passwort zurücksetzen können.",
+        "Überprüfen Sie Ihre E-Mail und folgen Sie den Anweisungen, um Ihr Passwort zurücksetzen können.",
         signInonResetPasswordLabelButton: "Anmelden",
         updateUser: "Profil aktualisieren",
         updateUserSuccessNotice: "Benutzer erfolgreich aktualisiert",
@@ -243,7 +243,7 @@ class AppLocalizations {
         number: "Bitte gebe eine Nummer ein.",
         notEmpty: "Dies ist ein Pflichtfeld.",
         amount:
-            "Bitte geben Sie eine Zahl das heißt 250 - kein Dollar-Symbol und keinen Cent",
+        "Bitte geben Sie eine Zahl das heißt 250 - kein Dollar-Symbol und keinen Cent",
       ),
     ),
     Locale.fromSubtags(languageCode: "hi"): AppLocalizations_Labels(
@@ -260,7 +260,7 @@ class AppLocalizations {
         signUpError: "साइन अप करने में विफल रहा।",
         signInLabelButton: "खाता होना? साइन इन करें।",
         resetPasswordNotice:
-            "अपने ईमेल की जाँच करें और निर्देशों का अपना पासवर्ड रीसेट करने का पालन करें।",
+        "अपने ईमेल की जाँच करें और निर्देशों का अपना पासवर्ड रीसेट करने का पालन करें।",
         signInonResetPasswordLabelButton: "साइन इन करें",
         updateUser: "प्रोफ़ाइल अपडेट करें",
         updateUserSuccessNotice: "प्रयोक्ता को सफलतापूर्वक अद्यतन",
@@ -317,7 +317,7 @@ class AppLocalizations {
         signUpError: "Inscreva-se falhou.",
         signInLabelButton: "Ter uma conta? Assinar em.",
         resetPasswordNotice:
-            "Verifique se o seu e-mail e siga as instruções para redefinir sua senha.",
+        "Verifique se o seu e-mail e siga as instruções para redefinir sua senha.",
         signInonResetPasswordLabelButton: "Assinar em",
         updateUser: "Atualizar perfil",
         updateUserSuccessNotice: "Usuário atualizado com sucesso",
@@ -358,7 +358,7 @@ class AppLocalizations {
         number: "Por favor, coloque um numero.",
         notEmpty: "Este é um campo obrigatório.",
         amount:
-            "Por favor insira um número ou seja 250 - nenhum símbolo dólar e há centavos",
+        "Por favor insira um número ou seja 250 - nenhum símbolo dólar e há centavos",
       ),
     ),
     Locale.fromSubtags(languageCode: "zh"): AppLocalizations_Labels(
@@ -482,13 +482,13 @@ class AppLocalizations {
         passwordFormField: "пароль",
         nameFormField: "имя",
         signInError:
-            "Войти не удалось: адрес электронной почты или пароль неверен.",
+        "Войти не удалось: адрес электронной почты или пароль неверен.",
         resetPasswordLabelButton: "забыл пароль?",
         signUpLabelButton: "Завести аккаунт",
         signUpError: "Регистрация прошла неудачно.",
         signInLabelButton: "Иметь аккаунт? Войти в систему.",
         resetPasswordNotice:
-            "Проверьте электронную почту и следуйте инструкциям, чтобы сбросить пароль.",
+        "Проверьте электронную почту и следуйте инструкциям, чтобы сбросить пароль.",
         signInonResetPasswordLabelButton: "Войти в систему",
         updateUser: "Обновить профиль",
         updateUserSuccessNotice: "Пользователь успешно обновлен",
@@ -529,7 +529,66 @@ class AppLocalizations {
         number: "Пожалуйста, введите номер.",
         notEmpty: "Это обязательное поле.",
         amount:
-            "Пожалуйста, введите номер 250 - т.е. без символа доллара и ни цента",
+        "Пожалуйста, введите номер 250 - т.е. без символа доллара и ни цента",
+      ),
+    ),
+
+    Locale.fromSubtags(languageCode: "ko"): AppLocalizations_Labels(
+      auth: AppLocalizations_Labels_Auth(
+        signInButton: "로그인",
+        signUpButton: "회원가입",
+        resetPasswordButton: "비밀번호 초기화",
+        emailFormField: "이메일",
+        passwordFormField: "비밀번호",
+        nameFormField: "이름",
+        signInError: "로그인 실패: 이메일과 비밀번호를 확인해주세요.",
+        resetPasswordLabelButton: "비밀번호를 잊으셨나요?",
+        signUpLabelButton: "회원가입",
+        signUpError: "회원가입 실패.",
+        signInLabelButton: "계정이 이미 있으신가요? 로그인하기.",
+        resetPasswordNotice:
+        "이메일을 확인하시고 비밀번호를 초기화하세요.",
+        signInonResetPasswordLabelButton: "로그인",
+        updateUser: "회원정보 수정",
+        updateUserSuccessNotice: "성공적으로 변경되었습니다.",
+        updateUserFailNotice: "수정 실패했어 이놈아.",
+        enterPassword: "비밀번호를 입력해주세요.",
+        cancel: "취소.",
+        submit: "확인.",
+        changePasswordLabelButton: "비밀번호 변경",
+        resetPasswordTitle: "비밀번호 초기화",
+        updateProfileTitle: "회원정보 수정",
+        wrongPasswordNotice: "비밀번호가 틀렸습니다.",
+        unknownError: "알수없는 오류가 발생했습니다.",
+      ),
+      settings: AppLocalizations_Labels_Settings(
+        title: "설정",
+        language: "언어",
+        theme: "테마",
+        signOut: "로그아웃",
+        dark: "어두움",
+        light: "밝음",
+        system: "시스템 설정",
+        updateProfile: "회원정보 수정",
+      ),
+      home: AppLocalizations_Labels_Home(
+        title: "Home",
+        nameLabel: "Name",
+        uidLabel: "UID",
+        emailLabel: "Email",
+        adminUserLabel: "Admin User",
+      ),
+      app: AppLocalizations_Labels_App(
+        title: "Flutter Starter Project",
+      ),
+      validator: AppLocalizations_Labels_Validator(
+        email: "Please enter a valid email address.",
+        password: "Password must be at least 6 characters.",
+        name: "Please enter a name.",
+        number: "Please enter a number.",
+        notEmpty: "This is a required field.",
+        amount:
+        "Please enter a number i.e. 250 - no dollar symbol and no cents",
       ),
     ),
   };
@@ -543,29 +602,29 @@ class AppLocalizations {
 class AppLocalizations_Labels_Auth {
   const AppLocalizations_Labels_Auth(
       {this.signInButton,
-      this.signUpButton,
-      this.resetPasswordButton,
-      this.emailFormField,
-      this.passwordFormField,
-      this.nameFormField,
-      this.signInError,
-      this.resetPasswordLabelButton,
-      this.signUpLabelButton,
-      this.signUpError,
-      this.signInLabelButton,
-      this.resetPasswordNotice,
-      this.signInonResetPasswordLabelButton,
-      this.updateUser,
-      this.updateUserSuccessNotice,
-      this.updateUserFailNotice,
-      this.enterPassword,
-      this.cancel,
-      this.submit,
-      this.changePasswordLabelButton,
-      this.resetPasswordTitle,
-      this.updateProfileTitle,
-      this.wrongPasswordNotice,
-      this.unknownError});
+        this.signUpButton,
+        this.resetPasswordButton,
+        this.emailFormField,
+        this.passwordFormField,
+        this.nameFormField,
+        this.signInError,
+        this.resetPasswordLabelButton,
+        this.signUpLabelButton,
+        this.signUpError,
+        this.signInLabelButton,
+        this.resetPasswordNotice,
+        this.signInonResetPasswordLabelButton,
+        this.updateUser,
+        this.updateUserSuccessNotice,
+        this.updateUserFailNotice,
+        this.enterPassword,
+        this.cancel,
+        this.submit,
+        this.changePasswordLabelButton,
+        this.resetPasswordTitle,
+        this.updateProfileTitle,
+        this.wrongPasswordNotice,
+        this.unknownError});
 
   final String signInButton;
 
@@ -619,13 +678,13 @@ class AppLocalizations_Labels_Auth {
 class AppLocalizations_Labels_Settings {
   const AppLocalizations_Labels_Settings(
       {this.title,
-      this.language,
-      this.theme,
-      this.signOut,
-      this.dark,
-      this.light,
-      this.system,
-      this.updateProfile});
+        this.language,
+        this.theme,
+        this.signOut,
+        this.dark,
+        this.light,
+        this.system,
+        this.updateProfile});
 
   final String title;
 
@@ -647,10 +706,10 @@ class AppLocalizations_Labels_Settings {
 class AppLocalizations_Labels_Home {
   const AppLocalizations_Labels_Home(
       {this.title,
-      this.nameLabel,
-      this.uidLabel,
-      this.emailLabel,
-      this.adminUserLabel});
+        this.nameLabel,
+        this.uidLabel,
+        this.emailLabel,
+        this.adminUserLabel});
 
   final String title;
 
@@ -672,11 +731,11 @@ class AppLocalizations_Labels_App {
 class AppLocalizations_Labels_Validator {
   const AppLocalizations_Labels_Validator(
       {this.email,
-      this.password,
-      this.name,
-      this.number,
-      this.notEmpty,
-      this.amount});
+        this.password,
+        this.name,
+        this.number,
+        this.notEmpty,
+        this.amount});
 
   final String email;
 

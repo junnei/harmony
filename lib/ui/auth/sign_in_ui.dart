@@ -44,8 +44,43 @@ class _SignInUIState extends State<SignInUI> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: <Widget>[
-                    LogoGraphicHeader(),
-                    SizedBox(height: 48.0),
+                    // LogoGraphicHeader(),
+                    // SizedBox(height: 48.0),
+
+                    Container(
+                        height: 43,
+                        alignment: Alignment.centerLeft,
+                        child: Image.asset('assets/images/welcome/icon.png')),
+                    SizedBox(height: 28.0),
+                    Container(
+                        height: 53,
+                        alignment: Alignment.centerLeft,
+                        child: Text(
+                          '환영합니다!',
+                          textAlign: TextAlign.left,
+                          style: TextStyle(
+                              color: Colors.black,
+                              fontFamily: 'Apple SD Gothic Neo',
+                              fontSize: 42,
+                              fontWeight: FontWeight.bold),
+                        )),
+                    SizedBox(height: 9.0),
+                    Container(
+                      height: 29,
+                      alignment: Alignment.centerLeft,
+                      child: Text(
+                        '로그인을 진행해주세요',
+                        textAlign: TextAlign.left,
+                        style: TextStyle(
+                            color: Color.fromRGBO(150, 167, 175, 1),
+                            fontFamily: 'Apple SD Gothic Neo',
+                            fontSize: 24,
+                            letterSpacing: 0,
+                            fontWeight: FontWeight.normal,
+                            height: 1),
+                      ),
+                    ),
+                    SizedBox(height: 37.0),
                     FormInputFieldWithIcon(
                       controller: _email,
                       iconPrefix: Icons.email,
@@ -67,7 +102,40 @@ class _SignInUIState extends State<SignInUI> {
                       maxLines: 1,
                     ),
                     FormVerticalSpace(),
-                    PrimaryButton(
+                    Container(
+
+                      height: 40.0,
+                      child : RaisedButton(
+                          color: Colors.white,
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(16),
+                          ),
+                          elevation: 0,
+                          onPressed: () {
+                            print("3");
+                          },
+                          child: Text(
+                            '로그인',
+                            textAlign: TextAlign.center,
+                            style: TextStyle(
+                                color: Color.fromRGBO(49, 69, 106, 1),
+                                fontFamily: 'Apple SD Gothic Neo',
+                                fontSize: 24,
+                                letterSpacing: 1,
+                                fontWeight: FontWeight.bold,
+                                ),
+                          ),
+                        ),
+                    ),
+                    new SizedBox(
+                      width: 200.0,
+                      height: 100.0,
+                      child: new RaisedButton(
+                        child: new Text('Blabla blablablablablablabla bla bla bla'),
+                        onPressed: () {},
+                      ),
+                    ),
+                    /*PrimaryButton(
                         labelText: labels.auth.signInButton,
                         onPressed: () async {
                           if (_formKey.currentState.validate()) {
@@ -91,6 +159,8 @@ class _SignInUIState extends State<SignInUI> {
                             }
                           }
                         }),
+
+                     */
                     FormVerticalSpace(),
                     LabelButton(
                       labelText: labels.auth.resetPasswordLabelButton,
